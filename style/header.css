@@ -1,0 +1,29 @@
+#primary {
+    background: url(../assets/img/Background_Intro.png);
+    height: 750px;
+    overflow: hidden;
+    box-sizing: border-box;
+
+
+    .flex {
+        justify-content: center;
+        padding: 300px;
+
+        .container {
+            display: flex;
+            
+            text-align: center;
+            
+            img {
+                border: 2px solid #E3646E;
+                border-radius: 50%;
+                padding: 5px;
+                
+            }
+
+            &::before {}
+        }
+    }
+
+
+}
