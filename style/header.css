@@ -1,27 +1,92 @@
 #primary {
     background: url(../assets/img/Background_Intro.png);
-    height: 750px;
+    background-size: cover;
+    height: 850px;
     overflow: hidden;
     box-sizing: border-box;
 
 
     .flex {
-        justify-content: center;
-        padding: 300px;
+        align-items: center;
+        padding-inline: 300px;
+        padding-block: 240px;
+        flex-direction: column;
+
 
         .container {
             display: flex;
-            
+            flex-direction: column;
             text-align: center;
-            
-            img {
-                border: 2px solid #E3646E;
-                border-radius: 50%;
-                padding: 5px;
-                
+            align-items: center;
+            height: 50vh;
+
+            .imagem {
+                position: relative;
+
+                .sobreposta {
+                    border: 2px solid #E3646E;
+                    border-radius: 50%;
+                    padding: 5px;
+                    width: 87.27px;
+                    height: 87.27px;
+
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    background: url(../assets/icons/Vector.svg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    z-index: 1;
+                    top: 50%;
+                    left: 50%;
+                    width: 31px;
+                    height: 25px;
+                    bottom: 0;
+                    right: 0;
+                    transform: translate(50%, 100%);
+                }
             }
 
-            &::before {}
+            .title-1{
+                margin-bottom: 20px;
+                margin-top: 8px;
+            }
+        }
+
+        .sub-1{
+            margin-top: 56px;
+        }
+
+        .linguagens {
+            display: flex;
+            gap: 16px;
+            margin-top: 80px;
+            margin-bottom: 94px;
+            
+
+            .capsula {
+                background-color: var(--gray-400);
+                max-width: 150px;
+                padding-inline: 16px;
+                padding-block: 8px;
+                border-radius: 25px;
+                display: flex;
+                gap: 8px;
+            }
+        }
+
+        seta-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 94px;
+            
+
+            .seta-dupla {
+                width: 32px;
+                height: 32px;
+            }
         }
     }
 

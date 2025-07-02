@@ -5,3 +5,29 @@
 .flex{
     display: flex;
 }
+
+.title-lg{
+    font: var(--title-lg-asap);
+    color: var(--gray-100);
+    letter-spacing: .04em;
+}
+
+.subtitle-gray{
+    font: var(--subtitle);
+    color: var(--gray-200);
+}
+
+.subtitle-red{
+    font: var(--subtitle);
+    color: var(--color-red);
+}
+
+.text-sm{
+    font: var(--text-sm-maven);
+    color: var(--gray-200);
+}
+
+.text-md{
+    font: var(--text-md-maven);
+    color: var(--gray-200);
+}
