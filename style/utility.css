@@ -12,6 +12,16 @@
     letter-spacing: .04em;
 }
 
+.title-md{
+    font: var(--title-md-asap);
+    color: var(--gray-100);
+}
+
+.title-sm{
+    font: var(--title-sm-asap);
+    color: var(--gray-100);
+}
+
 .subtitle-gray{
     font: var(--subtitle);
     color: var(--gray-200);
