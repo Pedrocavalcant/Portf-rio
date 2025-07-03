@@ -1,0 +1,46 @@
+#terciary{
+    height: 480px;
+    background-color: var(--gray-600);
+    box-sizing: border-box;
+    text-align: center;
+    padding-inline: 120px;
+    padding-block: 88px 120px;
+
+    .aside-h2{
+        margin-top: 8px;
+    }
+
+    .aside-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        column-gap: 24px;
+        box-sizing: border-box;
+        margin-top: 56px;
+
+
+        .aside-figcaption{
+            width: 280px;
+            height: 155px;
+            background-color: var(--gray-500);
+            border: 2px solid var(--gray-400);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            text-align: left;
+            padding: 20px;
+            justify-content: end;
+           
+            .aside-contain-icons{
+                padding-bottom: 10px;
+            }
+
+            .aside-h3{
+                margin-top: 20px;
+                margin-bottom: 8px;
+            }
+        }
+    }
+}

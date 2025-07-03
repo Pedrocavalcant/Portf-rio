@@ -3,4 +3,97 @@
     flex-direction: column;
     text-align: center;
     background-color: var(--gray-500);
+    box-sizing: border-box;
+    height: 920px;
+    
+    .main-span{
+        margin-bottom: 8px;
+    }
+
+    .main-h2{
+        margin-bottom: 56px;
+    }
+
+    .container-bloco{
+        text-align: left;
+        padding-inline: 120px;
+        padding-block: 72px 160px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 24px;
+        overflow: hidden;
+        max-width: 1040px;
+        margin: auto;
+
+        .card{
+            width: 330px;
+            height: 280px;
+            background-color: var(--gray-400);
+            border-radius: 15px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            
+
+            .bloco{
+                width: 306px;
+                height: 156px;
+                background-color: #878EA1;
+                margin: auto;
+                border-radius: 15px;
+            }
+
+            .b1{
+                background: url(../assets/img/Thumbnail_Project-01.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .b2{
+                background: url(../assets/img/Thumbnail_Project-02.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .b3{
+                background: url(../assets/img/Thumbnail_Project-03.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .b4{
+                background: url(../assets/img/Thumbnail_Project-04.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .b5{
+                background: url(../assets/img/Thumbnail_Project-05.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .b6{
+                background: url(../assets/img/Thumbnail_Project-06.png);
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            
+
+            .main-subtitle{
+                padding-inline: 12px;
+            }
+
+            .main-paragrafo{
+                padding-inline: 12px;
+                padding-block: 12px;
+            }
+        }
+    }
 }
+
+
+
