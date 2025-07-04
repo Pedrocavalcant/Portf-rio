@@ -1,4 +1,4 @@
-#quartenary{
+#quartenary {
     display: flex;
     flex-direction: column;
     height: 800px;
@@ -10,26 +10,26 @@
     text-align: center;
     box-sizing: border-box;
 
-    .footer-span{
+    .footer-span {
         color: var(--color-purple);
     }
 
-    .footer-h2{
+    .footer-h2 {
         margin-top: 8px;
     }
 
-    .footer-paragrafo{
+    .footer-paragrafo {
         margin-top: 8px;
     }
 
-    .footer-section{
+    .footer-section {
         display: flex;
         flex-direction: column;
         row-gap: 16px;
         box-sizing: border-box;
         margin-top: 48px;
 
-        .footer-figcaption{
+        .footer-figcaption {
             width: 400px;
             height: 68px;
             box-sizing: border-box;
@@ -41,16 +41,31 @@
             padding-inline: 20px;
             column-gap: 12px;
 
-            .footer-redes-sociais{
+            &:hover {
+                border: 2px solid var(--color-blue);
+            }
+
+            .footer-redes-sociais {
                 width: 28px;
                 height: 28px;
                 color: var(--gray-300);
+
+                &:hover{
+                    color: var(--color-blue);
+                }
             }
 
-            .footer-englobar-paragrafo{
+            .footer-englobar-paragrafo {
                 width: 288px;
                 height: 20px;
                 text-align: left;
+
+                .paragrafo {
+
+                    &:hover {
+                        color: var(--color-blue);
+                    }
+                }
             }
         }
     }
