@@ -32,6 +32,11 @@
     color: var(--color-red);
 }
 
+.subtitle-purple{
+    font: var(--subtitle);
+    color: var(--color-purple);
+}
+
 .text-sm{
     font: var(--text-sm-maven);
     color: var(--gray-200);
